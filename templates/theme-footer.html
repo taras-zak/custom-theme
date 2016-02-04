@@ -7,62 +7,25 @@
 <%!
   from datetime import date
 %>
-  <!--
+
 <div class="wrapper-footer">
-   <footer>
-    <div class="colophon">
-      <nav class="nav-colophon">
-        <ol>
-          <li><a href="${reverse('about')}">About</a></li>
-          <li><a href="${reverse('about')}#careers">Careers</a></li>
-          <li><a href="${reverse('about')}#contact">Contact</a></li>
-          <li><a href="${reverse('tos')}">Terms of Service</a></li>
-          <li><a href="${reverse('tos')}#privacy">Privacy Policy</a></li>
-          <li><a href="${reverse('tos')}#honor">Honor Code</a></li>
-          <li><a href="${reverse('tos')}#copyright">Copyright</a></li>
-        </ol>
-      </nav>
-    </div>
-    <div class="references">
-      <span>Built on <a href="http://code.edx.org">OpenEdX</a>.</span>
-    </div>
-
-    <div class="row">
-      <div class="col-md-3 col-md-offset-3">
-        <h3>Hello</h3>
-      </div>
-    </div>
-
-    <div class="copyright">
-        <p><span>
-            ${_('Copyright {year}. All rights reserved.').format(
-                year=date.today().year
-            )}
-        </span></p>
-    </div>
-  </footer>
--->
-
-
-  <footer id="footer" class="site-footer">
+   <footer id="footer" class="site-footer">
     <div class="container">
 
-        <div id="sidebar-footer-1">
-            <div class="row">
+        <div class="row">
+            <div class="col-md-3">
+                <h3 class="text-left">About Us</h5>
+                    <p class="text-left">Aenean dictum semper erat sit amet accumsan. Nullam dignissim ex eu purus vestibulum maximus. </p>
+            </div>
 
-                <aside class="widget col-md-3 col-sm-6">
-                    <h5 class="widget-title">About Us</h5>
-                    <p>Aenean dictum semper erat sit amet accumsan. Nullam dignissim ex eu purus vestibulum maximus. </p>
-                </aside>
-                
-                <aside class="widget col-md-3 col-sm-6">
-                    <h5 class="widget-title">Contacts</h5>
-                    <div class="textwidget">
-                        <div class="address" itemscope itemtype="http://schema.org/LocalBusiness">
+            <div class="col-md-3">
+                <h3 class="text-left">Contacts</h5>
+                    
+                        <div class="address text-left" itemscope itemtype="http://schema.org/LocalBusiness">
                         <div itemprop="name"></div>
                         <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                         <span itemprop="streetAddress"></span>
-                        <span itemprop="addressLocality"></span>,
+                        <span itemprop="addressLocality"></span>
                         <span itemprop="addressRegion"></span>
                         <meta itemprop="addressCountry" content="RU"/>
                         </div>
@@ -72,39 +35,27 @@
                         <a href="&#109;&#x61;&#x69;&#108;&#116;&#x6f;&#58;&#109;&#97;&#105;&#108;&#x40;&#x65;&#x6d;a&#x69;&#108;.&#99;&#x6f;&#x6d;" itemprop="email">&#109;&#x61;&#105;&#108;&#x40;&#101;&#109;&#x61;&#105;&#108;&#x2e;&#x63;o&#109;</a>
                         <a href="" itemprop="url"></a>
                         </div>
-                    </div>
-                </aside>
-            
-                <aside class="widget col-md-3 col-sm-6">
-                    <div class="row mailchimp-outer">
-                        <h5 class="widget-title" ></h5>
-<p></p>
+            </div>
 
+            <div class="col-md-3">
 
-<div class="input-group mailchimp-wrapper">
-    <form action="http://dev.datascience-school.com/#subscribe" method="post" id="subscribe">
-        <input type="email" name="EMAIL" class="form-control" placeholder="Enter email" value="">
-        <span class="input-group-btn">
-          <input type="submit" class="btn btn-danger" name="mmc_subscribe" value="Subscribe">
-        </span>
-    </form>
-</div>
+                <form action="http://dev.datascience-school.com/#subscribe" method="post" id="subscribe">
+                    <div class="input-group">
+                        <input type="email" name="EMAIL" class="form-control" placeholder="Enter email" value="">
+                        <span class="input-group-btn">
+                            <input type="submit" class="btn btn-danger" name="mmc_subscribe" value="Subscribe">
+                        </span>
                     </div>
-                    <div class="row">
-                        <!--noindex-->
-                        <ul class="social-links">
-                            
-                            
-                            
-                            
-                            
-                        </ul>
-                        <!--/noindex-->
-                    </div>
-                </aside>
-            
+                </form>
+            </div>
+
+            <div class="col-md-3">
+                 <span>Built on <a href="http://code.edx.org">OpenEdX</a>.</span>
+                 <img src="${static.url('themes/default/images/logo-open-edx.png')}"alt="Edx Logo" />
             </div>
         </div>
+
+        
     
         <div class="copyright">
             <p><span>&copy; 2010-2016 by MyLandingPage - your modern professional one page website in just a few days</span> <br> Made with &hearts; by <a href="http://mylandingpage.website" target="_blank">mylandingpage.website</a></p>
