@@ -23,7 +23,7 @@ $main-bg-25: lighten($main-bg, 25%);
 //Secondary Color Variables
 $secondary: #b5a4b7;
 $secondary-50: lighten($secondary, 9%);
-$secondary-25: lighten($secondary, 20%); //Important Heading BG Color 
+$secondary-25: white; //Important Heading BG Color 
 
 //Gray Color Variables
 $gray: #3f3f3f; //Main Text Color
@@ -235,6 +235,7 @@ html {
     footer {
         max-width: 1180px;
         margin: 0 auto;
+        background-color: #4b494f;
 
         .colophon {
             width: 80%;

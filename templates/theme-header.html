@@ -4,8 +4,12 @@
 <%inherit file="/navigation.html"/>
 
 ## TODO: this will eventually be moved to the Sass
+<%block name="navigation_top">
+    ${platform_name()}
+</%block>
+
 <%block name="navigation_logo">
   <img src="${static.url('themes/default/images/logo.png')}" height="50" alt="Home Page" />
-  <p>Data science school</p>
+  ${platform_name()}
 </%block>
 
