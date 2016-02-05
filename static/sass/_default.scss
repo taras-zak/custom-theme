@@ -10,7 +10,7 @@
 //-----------------
 
 //Main Color Variables
-$main-color: #f7691f;
+$main-color: #f15f4c;
 $dark-color: #ea281f; //Link Color
 $light-color: #f4e00c; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
 $bg-color: #f7fe81; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
@@ -81,9 +81,9 @@ $base-font-color: $black;
 $lighter-base-font-color: $black-80;
 $very-light-text: $gray-1;
 
-$link-color: $dark-color;
+$link-color: #646464;
 $link-color-d1: $dark-color;
-$link-hover: $light-color;
+$link-hover:  black;
 $site-status-color: $bg-color;
 
 $header-graphic-super-color: $dark-color;
@@ -258,6 +258,7 @@ html {
         clear: both;
     }
 }
+
 
 //-----------------
 // TOS Styling
