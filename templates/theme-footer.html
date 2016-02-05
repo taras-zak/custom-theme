@@ -4,9 +4,7 @@
   from django.utils.translation import ugettext as _
 %>
 <%namespace name='static' file='/static_content.html'/>
-<%!
-  from datetime import date
-%>
+<%! from datetime import date %>
 
 <div class="wrapper-footer">
   <footer>
@@ -24,7 +22,7 @@
       </nav>
     </div>
     <div class="references">
-      <span>Built on <a href="http://code.edx.org"><img src="${static.url('themes/default/images/logo-open-edx.png')}" height="50" alt="Open Edx" /></a>.</span>
+      <img src="${static.url('themes/default/images/logo.png')}" height="50" alt="Home Page" />
     </div>
 
     <div class="copyright">
