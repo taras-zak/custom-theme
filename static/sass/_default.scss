@@ -212,7 +212,7 @@ $video-thumb-url: '../themes/default/images/edx.png';
 // Override CSS
 //-----------------
 html {
-    background-color: $secondary-25 !important;
+    background-color: white !important;
 }
 
 //-----------------
@@ -231,11 +231,12 @@ html {
 //-----------------
 .wrapper-footer {
     box-shadow: none !important;
-    
+    background-color: #4b494f;
+
     footer {
         max-width: 1180px;
         margin: 0 auto;
-        background-color: #4b494f;
+        
 
         .colophon {
             width: 80%;
