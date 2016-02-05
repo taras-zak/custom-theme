@@ -215,16 +215,16 @@ html {
     background-color: $secondary-25 !important;
 }
 
+.logo {
+        font-size: 18px;
+    }
+
 //-----------------
 // Header Styling
 //-----------------
 .home>header {
     height: 500px;
     background-color: white !important;
-    
-    nav h1 {
-        font-size: 18px;
-    }
 
     .outer-wrapper {
         padding: 120px 0 !important;
@@ -263,6 +263,7 @@ html {
 
     .copyright {
         clear: both;
+        text-align: center;
     }
 }
 
