@@ -1,0 +1,27 @@
+/*.site-footer {
+    text-align: center;
+    background: #4b494f;
+    color: #999;
+    padding: 50px 0 0;
+}
+
+footer#footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    font-size: 18px;
+}
+
+.copyright {
+    border-top: 5px solid rgba(255,255,255,.1);
+    font-size: 12px;
+    padding: 20px 0 10px;
+}
+
+#subscribe {
+    margin-top: 30px;
+}*/
+
+#my {
+    background-color: red !important;
+}

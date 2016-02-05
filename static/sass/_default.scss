@@ -221,6 +221,10 @@ html {
 .home>header {
     height: 500px;
     background-color: white !important;
+    
+    nav h1 {
+        font-size: 18px;
+    }
 
     .outer-wrapper {
         padding: 120px 0 !important;
