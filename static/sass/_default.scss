@@ -16,12 +16,12 @@ $light-color: #f4e00c; //Selected Header BG Color, ie. calendar        ***Custom
 $bg-color: #f7fe81; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
 
 //Main BG Color Variables
-$main-bg: #c8c8c8;
+$main-bg: #2e2e2e;
 $main-bg-60: lighten($main-bg, 18.5%); //Main Border/HR Color
 $main-bg-25: lighten($main-bg, 25%); 
 
 //Secondary Color Variables
-$secondary: #b5a4b7;
+$secondary: white;
 $secondary-50: lighten($secondary, 9%);
 $secondary-25: white; //Important Heading BG Color 
 
