@@ -77,7 +77,7 @@ $faded-hr-image-4: linear-gradient($main-bg-60 0%, $main-bg-60);
 $faded-hr-image-5: linear-gradient($main-bg-60 0%, $main-bg-60);
 $faded-hr-image-6: linear-gradient($main-bg-60 0%, $main-bg-60);
 
-$base-font-color: #999;
+$base-font-color: $black;
 $lighter-base-font-color: $black-80;
 $very-light-text: $gray-1;
 
@@ -217,6 +217,10 @@ html {
 
 .logo {
         font-size: 18px;
+        color: #777;
+    }
+.logo:hover {
+        color: #333;
     }
 
 //-----------------
@@ -225,6 +229,7 @@ html {
 .home>header {
     height: 500px;
     background-color: white !important;
+
 
     .outer-wrapper {
         padding: 120px 0 !important;
