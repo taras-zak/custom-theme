@@ -81,9 +81,9 @@ $base-font-color: $black;
 $lighter-base-font-color: $black-80;
 $very-light-text: $gray-1;
 
-$link-color: #fff;
+$link-color: #646464;
 $link-color-d1: $dark-color;
-$link-hover:  #999;
+$link-hover:  black;
 $site-status-color: $bg-color;
 
 $header-graphic-super-color: $dark-color;
@@ -272,8 +272,6 @@ html {
     .copyright {
         clear: both;
         text-align: center;
-        border-top: 5px solid rgba(255,255,255,.1);
-        padding: 20px 0 10px;
     }
 }
 
