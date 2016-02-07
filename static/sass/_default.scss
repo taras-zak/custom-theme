@@ -215,13 +215,7 @@ html {
     background-color: $secondary-25 !important;
 }
 
-.logo {
-        font-size: 18px;
-        color: #777;
-    }
-.logo:hover {
-        color: #333;
-    }
+
 
 //-----------------
 // Header Styling
@@ -229,6 +223,15 @@ html {
 .home>header {
     height: 500px;
     background-color: white !important;
+
+    .logo {
+            font-size: 18px;
+            color: #777;
+        }
+        
+    .logo:hover {
+            color: #333;
+        }
 
 
     .outer-wrapper {
