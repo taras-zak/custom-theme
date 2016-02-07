@@ -77,13 +77,13 @@ $faded-hr-image-4: linear-gradient($main-bg-60 0%, $main-bg-60);
 $faded-hr-image-5: linear-gradient($main-bg-60 0%, $main-bg-60);
 $faded-hr-image-6: linear-gradient($main-bg-60 0%, $main-bg-60);
 
-$base-font-color: $black;
+$base-font-color: #999;
 $lighter-base-font-color: $black-80;
 $very-light-text: $gray-1;
 
-$link-color: #646464;
+$link-color: #fff;
 $link-color-d1: $dark-color;
-$link-hover:  black;
+$link-hover:  #999;
 $site-status-color: $bg-color;
 
 $header-graphic-super-color: $dark-color;
@@ -264,6 +264,8 @@ html {
     .copyright {
         clear: both;
         text-align: center;
+        border-top: 5px solid rgba(255,255,255,.1);
+        padding: 20px 0 10px;
     }
 }
 
