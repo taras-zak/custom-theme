@@ -238,6 +238,7 @@ html {
 .wrapper-footer {
     box-shadow: none !important;
     background-color: #4b494f !important;
+    padding-top: 20px !important;
 
     footer {
         max-width: 1180px;
@@ -254,6 +255,10 @@ html {
         .colophon {
             width: 80%;
             float: left;
+
+            .nav-colophon ol {
+                margin-top: 15px;
+            }
 
             .nav-colophon li {
                 display: inline-block;
