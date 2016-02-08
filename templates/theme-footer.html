@@ -11,29 +11,8 @@
     <div class="colophon">
       <nav class="nav-colophon">
         <ol>
-          <li>
-            <div>
-              <h3 class="text-left">About Us</h3>
-                    <p class="text-left">Aenean dictum semper erat sit amet accumsan. Nullam dignissim ex eu purus vestibulum maximus. </p>
-            </div>
-          </li>
-          <li>
-            <h3 class="text-left">Contacts</h3>    
-            <div class="address text-left" itemscope itemtype="http://schema.org/LocalBusiness">
-            <div itemprop="name"></div>
-            <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-            <span itemprop="streetAddress"></span>
-            <span itemprop="addressLocality"></span>
-            <span itemprop="addressRegion"></span>
-            <meta itemprop="addressCountry" content="RU"/>
-            </div>
-            Working time:
-            <time itemprop="openingHours" datetime="Mo, Tu, We, Th, Fr, Sa, Su 10:00-19:00">10:00 - 19:00 Everyday</time>
-            <a href="tel:" itemprop="telephone"></a>
-            <a href="&#109;&#x61;&#x69;&#108;&#116;&#x6f;&#58;&#109;&#97;&#105;&#108;&#x40;&#x65;&#x6d;a&#x69;&#108;.&#99;&#x6f;&#x6d;" itemprop="email">&#109;&#x61;&#105;&#108;&#x40;&#101;&#109;&#x61;&#105;&#108;&#x2e;&#x63;o&#109;</a>
-            <a href="" itemprop="url"></a>
-            </div>
-          </li>
+          <li><a href="${reverse('about')}">About</a></li>
+          <li><a href="${reverse('about')}#contact">Contact</a></li>
         </ol>
       </nav>
     </div>
